@@ -1,0 +1,56 @@
+.navbar{
+ background:#e02853;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+/*header style*/
+.header{
+ background-color:black;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 0%;
+ min-width: 0%;
+ left: 0;
+ top: 0;
+ background: rgba(100, 100, 100, 0.75);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:white;
+ font-size: 25px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #ed7e2a;
+ background:#ed7e2a;
+ color:#fff;
+}
